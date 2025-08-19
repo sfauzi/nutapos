@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\PajakController;
 use App\Http\Controllers\StockController;
 use App\Http\Controllers\TransactionController;
 use Illuminate\Support\Facades\Route;
