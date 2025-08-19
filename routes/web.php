@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\StockController;
 use App\Http\Controllers\TransactionController;
 use Illuminate\Support\Facades\Route;
 
@@ -9,3 +10,4 @@ Route::get('/', function () {
 
 
 Route::get('/transactions/saldo', [TransactionController::class, 'hitungSaldo']);
+Route::get('/stok/kartu', [StockController::class, 'kartuStok']);
